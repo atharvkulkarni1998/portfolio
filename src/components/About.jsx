@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import React from "react";
 import aboutUsImage from "../assets/aboutUsImage.jpg";
-import resumeFile from "../assets/Atharv_Kulkarni_ReactJS_1.3Years.pdf"
+import resumeFile from "../assets/Atharv_Kulkarni_2.5Years.pdf"
 const About = (props) => {
   return (
     <div className="p-3 flex justify-between flex-row">
@@ -23,7 +23,7 @@ const About = (props) => {
             </li>
           );
         })}
-        <Button href={resumeFile} download sx={{textTransform:"capitalize", fontSize:"20px", mt:5}}>Download CV</Button>
+        <div style={{fontSize:"20px", marginTop:5}}>Click here to: <Button href={resumeFile} download sx={{textTransform:"capitalize", fontSize:"20px"}}>Download CV</Button></div>
       </div>
     </div>
   );

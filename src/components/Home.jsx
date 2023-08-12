@@ -10,7 +10,7 @@ const Home = (props) => {
         {props.homeData.yourNameText}
         </h2>
       </div>
-      <img src={profileImage} width="600px" height="600px" />
+      <img src={profileImage} width="600px" height="600px" alt='profile icon'/>
     </div>
   );
 };
